@@ -1,0 +1,28 @@
+.head {
+    text-align: center;
+    margin-top: 8rem;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 48px;
+    color: #fff;
+    max-height: 50px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.animation {
+    text-align: start;
+    color: crimson;
+    overflow: hidden;
+}
+
+.inner-animation {
+    transition: 0.7s ease-in-out;
+}
+
+.animation-items {
+    display: inline-block;
+}
