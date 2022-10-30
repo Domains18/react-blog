@@ -1,6 +1,7 @@
 .head {
     text-align: center;
     margin-top: 8rem;
+    height: 100vh;
 }
 .text {
     display: flex;
@@ -25,4 +26,17 @@
 
 .animation-items {
     display: inline-block;
+}
+.cta{
+    margin-top: 50px;
+}
+.btn{
+    border: 1px solid crimson;
+    padding: 10px;
+    font-size: 25px;
+    top: 50px;
+}
+.btn:hover{
+    background-color: crimson;
+    border-radius: 9px;
 }

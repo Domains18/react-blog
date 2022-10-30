@@ -6,22 +6,25 @@ const Header = () => {
     <div className='head'>
       <div className="text">
         <div className="div">
-          <p>Hello, </p>
+          <p>Hello, We </p>
         </div>
         <Animation>
           <AnimationItem>
             <p>Collaborate</p>
           </AnimationItem>
           <AnimationItem>
-            <p>Open-Source</p>
+            <p>Do Open-Source</p>
           </AnimationItem>
           <AnimationItem>
-            <p>Building In Public</p>
+            <p>Build In Public</p>
           </AnimationItem>
           <AnimationItem>
             <p>Mentorship</p>
           </AnimationItem>
         </Animation>
+      </div>
+      <div className="cta">
+        <a className="btn" href="#Popular" type='button'> Explore</a>
       </div>
     </div>
   )

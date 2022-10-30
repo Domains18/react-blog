@@ -1,0 +1,33 @@
+#Popular{
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#Popular h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+article{
+    color: #000;
+    background: #fff;
+    padding: 15px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+article a{
+    color: red;
+
+}
+article a:hover{
+    border: 2px solid black;
+    padding: 8px;
+}

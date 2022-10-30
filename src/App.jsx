@@ -10,8 +10,8 @@ function App() {
     <>
       <Nav/>
       <Header/>      
+      <Popular />
       <Posts/>
-      <Popular/>
       <About/>
       <Contact/>
       <Footer/>
