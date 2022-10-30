@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background: beige;
-  color: red;
+  background: #2b323c;
+  color: #fff;
 }
-section{
-  color: green;
+a{
+  color: #fff;
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
 }
