@@ -26,7 +26,7 @@ const About = () => {
             <div className="cta subscribe">
               <p>Subscribe to Our Monthly Newsletter</p>
               <br />
-              <a type="button" href=""> Subscribe </a>
+              <a type="button" href="#contact"> Subscribe </a>
             </div>
           </aside>
         </div>
