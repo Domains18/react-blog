@@ -10,7 +10,7 @@ const Popular = () => {
           <div className="content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ad alias enim consequuntur ipsam dolore quisquam incidunt voluptate distinctio quibusdam.
             <div className='cta'>
-              <a href="" type='button'>Read More</a>
+              <a href="post" type='button'>Read More</a>
             </div>
           </div>
         </article>
@@ -20,7 +20,7 @@ const Popular = () => {
             <div className="content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ad alias enim consequuntur ipsam dolore quisquam incidunt voluptate distinctio quibusdam.
               <div className='cta'>
-                <a href="" type='button'>Read More</a>
+                <a href="post" type='button'>Read More</a>
               </div>
             </div>
           </article>
@@ -31,7 +31,7 @@ const Popular = () => {
             <div className="content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ad alias enim consequuntur ipsam dolore quisquam incidunt voluptate distinctio quibusdam.
               <div className='cta'>
-                <a href="" type='button'>Read More</a>
+                <a href="post" type='button'>Read More</a>
               </div>
             </div>
           </article>
