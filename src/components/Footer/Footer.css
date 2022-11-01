@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Shalimar&display=swap');
+footer{
+    background: #8D72E1;
+    height: 59vh;
+    font-family: 'Amiri', serif;
+}
+.footer-header{
+    display: grid;
+    padding: 40px;
+}
+footer p{
+    font-size: 20px;
+}
+
+footer aside{
+    padding: 0;
+}
+
+footer aside p{
+    text-decoration: none;
+}
