@@ -1,9 +1,9 @@
-import React from 'react'
-import './Contacts.css'
+import React from 'react';
+import './Contacts.css';
 import { RiMessengerLine } from 'react-icons/ri';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { CiTwitter } from 'react-icons/ci';
-import { MdOutgoingMail } from 'react-icons/md'
+import { MdOutgoingMail } from 'react-icons/md';
 const Contacts = () => {
   return (
     <div className='contact-section'>
