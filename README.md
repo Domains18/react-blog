@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple blog app built with React Native.
+
+# To Run the app
+please install the dependencies first
+
+### ` npm install`
 
 ## Available Scripts
 
