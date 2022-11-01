@@ -31,7 +31,7 @@ const About = () => {
           </aside>
         </div>
       </div>
-      
+      <div class="line-1"></div>
     </>
   )
 }

@@ -19,3 +19,30 @@ ul li {
 html{
   scroll-behavior: smooth;
 }
+.line-1 {
+  height: 1px;
+  background: #fff;
+}
+.subscribe a {
+  padding: 10px;
+  border: 2px solid crimson;
+  transition: all 1s ease;
+  width: 50px;
+}
+
+.subscribe a:hover {
+  background: crimson;
+  border-radius: 8px;
+}
+button{
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 1s ease;
+  width: 50px;
+  padding: 15px;
+  width: 85px;
+}
+button:hover{
+  background: crimson;
+  border-radius: 8px;
+}

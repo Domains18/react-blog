@@ -26,13 +26,4 @@ aside{
     padding-bottom: 10px;
     font-size: 18px;
 }
-.subscribe a{
-    padding: 10px;
-    border: 2px solid crimson;
-    transition: all 1s ease;
-    width: 50px;
-}
-.subscribe a:hover{
-    background: crimson;
-    border-radius: 8px;
-}
+

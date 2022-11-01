@@ -27,6 +27,7 @@ const Header = () => {
         <a className="btn" href="#Popular" type='button'> Explore</a>
       </div>
     </div>
+    
   )
 }
 

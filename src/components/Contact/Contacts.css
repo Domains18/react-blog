@@ -1,3 +1,35 @@
-.contact{
+.contact-section{
+    height: 85vh;
+}
+.contact h1{
     text-align: center;
+}
+.icons{
+    font-size: 20px;
+}
+.New-socials{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.hero{
+    display: grid;
+    background: transparent;
+}
+.hero input{
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fff;
+}
+.hero input::placeholder{
+    color: #fff;
+}
+input:focus {
+    outline: none !important;
+}
+aside p{
+    text-decoration: underline;
 }
