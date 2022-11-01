@@ -19,7 +19,7 @@ const Header = () => {
             <p>Build In Public</p>
           </AnimationItem>
           <AnimationItem>
-            <p>Mentorship</p>
+            <p>Do Mentorship</p>
           </AnimationItem>
         </Animation>
       </div>
