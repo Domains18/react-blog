@@ -42,7 +42,7 @@
     text-align: center;
     width: 30%;
     position: relative;
-
+    animation: shake .3s linear infinite ;
 }
 .btn svg{
     font-size: 3rem;
@@ -54,4 +54,14 @@
 .btn:hover{
     background-color: crimson;
     border-radius: 9px;
+    animation: none;
+}
+@keyframes shake {
+    0%,100%{
+        rotate: 5deg;
+        
+    }
+    50%{
+        rotate:-5deg;
+    }
 }
