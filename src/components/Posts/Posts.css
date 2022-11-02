@@ -1,0 +1,104 @@
+.post_section{
+    min-height: 100vh;
+}
+.post_title{
+    width: 100%;
+    background-color: red;
+    margin: 10px 0;
+    padding: 20px 10px;
+    text-align: center;
+}
+.post_title h1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+/* Post details */
+.row,
+.post_trend{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 3rem 0;
+}
+.post_trend .post_item{
+    max-width: 100%;
+    margin: 5px;
+    padding: 0 15px;
+    position: relative;
+}
+.post_trend .post_item:nth-child(even){
+    padding-left: calc(50% + 20px);
+    
+}
+.post_trend .post_item:nth-child(odd){
+    padding-right: calc(50% + 20px);
+    
+}
+.post_trend .post_body{
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.8);
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.8);
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    transition: all 1s ease-in-out;
+}
+.post_body:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+.post_trend .post_body .post_img{
+    min-width: 100%;
+    max-height: 300px;
+
+}
+.post_trend .post_body .post_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.post_trend .post_content{
+    padding: 10px 25px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 100%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.post_trend .post_body:hover .post_content{
+    bottom: 0;
+    transition: all 1s ease-in-out;
+}
+
+.post_trend .post_content h4{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fefefe;
+}
+.post_trend .post_content p{
+    font-size: 22px;
+    color: #fefefe;
+    padding: 10px 0;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+.post_trend .post_content .btn-1{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1rem;
+    background-color: rgba(210, 10, 10, 0.83);
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+
+}

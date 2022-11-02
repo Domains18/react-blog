@@ -6,7 +6,7 @@ import { AiOutlineTwitter } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 const About = () => {
   return (
-    <>
+    <div id='about'>
       <div className="about container">
         <div className="title">
           <h1>About us</h1>
@@ -32,7 +32,7 @@ const About = () => {
         </div>
       </div>
       <div class="line-1"></div>
-    </>
+    </div>
   )
 }
 
