@@ -3,7 +3,7 @@
 }
 .post_title{
     width: 100%;
-    background-color: red;
+    background-color: #3D8361;
     margin: 10px 0;
     padding: 20px 10px;
     text-align: center;
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 3rem 0;
+    margin: 3rem ;
 }
 .post_trend .post_item{
     max-width: 100%;
@@ -41,7 +41,7 @@
     position: relative;
     overflow: hidden;
     min-height: 300px;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out ;
 }
 .post_body:hover::before{
     content: '';
@@ -64,6 +64,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    background-repeat: no-repeat;
 }
 .post_trend .post_content{
     padding: 10px 25px;
@@ -78,7 +79,10 @@
     bottom: 0;
     transition: all 1s ease-in-out;
 }
-
+.post_item h2{
+    justify-content: center;
+    text-align: center;
+}
 .post_trend .post_content h4{
     font-size: 2rem;
     font-weight: 600;

@@ -4,6 +4,7 @@ This is a simple blog app built with React Native.
 
 # To Run the app
 please install the dependencies first
+###  ` npm install`
 
 ### ` npm install`
 

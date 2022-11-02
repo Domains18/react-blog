@@ -27,11 +27,18 @@ const About = () => {
               <p>Subscribe to Our Monthly Newsletter</p>
               <br />
               <a type="button" href="#contact"> Subscribe </a>
+              <br />
+              <br />
             </div>
           </aside>
+          <br />
+          <br />
         </div>
+        <br />
+        <br />
       </div>
-      <div class="line-1"></div>
+      <br />
+      <br />
     </div>
   )
 }

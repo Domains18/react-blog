@@ -15,6 +15,7 @@ const Posts = () => {
         <div className="post_trend">
           {/* post item */}
           <div className="post_item">
+            <h2>Post title here</h2>
             <div className="post_body">
               <div className="post_img">
                 <img src={image2} alt="" />
@@ -31,6 +32,7 @@ const Posts = () => {
           {/* end post */}
           {/* post item */}
           <div className="post_item">
+            <h2>Post title here</h2>
             <div className="post_body">
               <div className="post_img">
                 <img
@@ -54,6 +56,7 @@ const Posts = () => {
           {/* end post */}
           {/* post item */}
           <div className="post_item">
+            <h2>Post title here</h2>
             <div className="post_body">
               <div className="post_img">
                 <img src={image3} alt="" />
